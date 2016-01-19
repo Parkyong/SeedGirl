@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  SeedGirl
+//
+//  Created by ParkHunter on 15/9/17.
+//  Copyright (c) 2015年 OASIS. All rights reserved.
+//
+
+#ifndef SeedGirl_PrefixHeader_pch
+#define SeedGirl_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//头文件
+#import "Masonry.h"
+#import "Adaptor.h"
+#import "Enum.h"
+
+#import "AppConfig.h"
+#import "MBFontAdapter.h"
+#import "MBFrameAdapter.h"
+#import "UIView+frameAdjust.h"
+#import "UIImage+Expand.h"
+#import "NSString+Expand.h"
+#import "UILabel+Expand.h"
+#import "EaseMob.h"
+#import "NetworkConfig.h"
+#import "ValidateTool.h"
+#import "UserManager.h"
+#import "CacheDataManager.h"
+#import "OwnProgressHUD.h"
+
+#import "UIView+Expand.h"
+#import "UIImageView+WebCache.h"
+
+#endif

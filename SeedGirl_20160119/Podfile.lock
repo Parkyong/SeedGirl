@@ -1,0 +1,66 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - EaseMobSDKFull (2.2.1.2)
+  - HappyDNS (0.2.3)
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.0)
+  - Qiniu (7.0.16):
+    - AFNetworking (~> 2.0)
+    - HappyDNS (~> 0.2)
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
+  - UITableView+FDTemplateLayoutCell (1.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - EaseMobSDKFull (from `https://github.com/easemob/sdk-ios-cocoapods-integration.git`)
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - Qiniu
+  - SDWebImage
+  - UITableView+FDTemplateLayoutCell
+
+EXTERNAL SOURCES:
+  EaseMobSDKFull:
+    :git: https://github.com/easemob/sdk-ios-cocoapods-integration.git
+
+CHECKOUT OPTIONS:
+  EaseMobSDKFull:
+    :commit: f27db4da9c6285f91a71811c2d55af8427368dbf
+    :git: https://github.com/easemob/sdk-ios-cocoapods-integration.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  EaseMobSDKFull: f8d6281b9b58b90d5594fe7d40e1529790035d65
+  HappyDNS: 6d85942e64c28b4fa61f8c76580398f52d6d1d11
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  Qiniu: 51a8702cddc02b50867e10cef99291b9a8a006b1
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+
+COCOAPODS: 0.39.0

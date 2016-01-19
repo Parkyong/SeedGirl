@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  SeedGirl
+
+  Created by ParkHunter on 15/9/17.
+  Copyright (c) 2015年 OASIS. All rights reserved.
+*/
+//以下是拼音
+"DongTai"="动态";
+"GeRen"="个人";
+"Paishe"="拍摄";
+"ZhiTiao"="纸条";
+"SheZhi"="设置";
+"ShiPin"="视频";

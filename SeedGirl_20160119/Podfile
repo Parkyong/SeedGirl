@@ -1,0 +1,8 @@
+pod 'Masonry'
+pod 'EaseMobSDKFull', :git => 'https://github.com/easemob/sdk-ios-cocoapods-integration.git'
+pod 'AFNetworking' #, '~> 3.0.0-beta.2'
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+pod 'MJRefresh'
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'Qiniu'
